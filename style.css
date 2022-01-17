@@ -1,0 +1,54 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* variables */
+:root{
+    --primary:#E2C081 !important;
+    --secondary:#FFF2E5 !important;
+    --text:#333 !important;
+}
+/* base */
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: var(--text);
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 1rem 0;
+    font-weight: 400;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+.img-profil{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    border: .1rem solid var(--text);
+}
+.SeriesContent{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+.card-title{
+    font-weight: 400;
+    font-size: 1.8rem;
+}
